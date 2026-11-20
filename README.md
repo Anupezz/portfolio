@@ -1,4 +1,4 @@
-# Anup Salian — Portfolio
+# Anup — Portfolio
 
 A frontend-only portfolio built with Next.js, React, CSS, Framer Motion and Lucide icons.
 
@@ -21,10 +21,8 @@ npm start
 ## Included
 
 - Responsive developer portfolio with scroll and entrance animations
-- Animated hanging student ID-card visual
 - Education details: Canara Engineering College and Canara PU College
 - Skills and selected project sections
 - Contact section with working email, GitHub and LinkedIn links
-- Downloadable PDF resume at `/anup-salian-resume.pdf`
 
 This is a frontend-only site. The contact action opens the visitor's email application; no backend or database is required.
