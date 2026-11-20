@@ -1,30 +1,59 @@
-# Anup Salian — Portfolio
+# Anup — Portfolio
 
-A frontend-only portfolio built with Next.js, React, CSS, Framer Motion and Lucide icons.
+A responsive personal portfolio built with Next.js, React and Framer Motion, showcasing my skills, education and projects.
 
-## Run locally
+🔗 **Live site:** [portfolio-fawn-chi-18.vercel.app](https://portfolio-fawn-chi-18.vercel.app)
+
+## Features
+
+- Responsive layout that works on desktop, tablet and mobile
+- Scroll and entrance animations with Framer Motion
+- Animated hanging student ID-card in the hero section
+- About section with education details (Canara Engineering College and Canara PU College)
+- Skills toolkit and projects section (projects coming soon)
+- Contact section with email, GitHub and LinkedIn links, plus a downloadable resume
+
+## Tech Stack
+
+- **Framework:** Next.js, React
+- **Styling:** CSS
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+## Getting Started
+
+Make sure you have [Node.js](https://nodejs.org) 18 or newer installed.
 
 ```bash
+git clone https://github.com/Anupezz/portfolio.git
+cd portfolio
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Build for production
+## Build for Production
 
 ```bash
 npm run build
 npm start
 ```
 
-## Included
+## Project Structure
 
-- Responsive developer portfolio with scroll and entrance animations
-- Animated hanging student ID-card visual
-- Education details: Canara Engineering College and Canara PU College
-- Skills and selected project sections
-- Contact section with working email, GitHub and LinkedIn links
-- Downloadable PDF resume at `/anup-salian-resume.pdf`
+```
+src/app/page.js     Main page and all sections
+public/             Static files (resume PDF)
+```
 
-This is a frontend-only site. The contact action opens the visitor's email application; no backend or database is required.
+## Notes
+
+This is a frontend-only site. The contact button opens the visitor's email app, so no backend or database is needed.
+
+## Contact
+
+- Email: [anupsalian777@gmail.com](mailto:anupsalian777@gmail.com)
+- GitHub: [Anupezz](https://github.com/Anupezz)
+- LinkedIn: [Anup](https://www.linkedin.com/in/anup-590477345/)
